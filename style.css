@@ -1,0 +1,338 @@
+
+.padding
+{
+    padding: 40px;
+}
+.navbar-light
+{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-light .navbar-brand
+{
+    font-weight: bold;
+
+}
+.navbar-light .navbar-nav > li > a
+{
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-left: 10px;
+   
+}
+.nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,.navbar-light .nav-item .dropdown-menu :hover
+{
+    color: darkturquoise !important;
+}
+.w-100 
+{
+    height: 100vh;
+}
+
+.carousel-caption a
+{
+    padding: 5px 15px;
+    margin-top: 5px;
+    border-radius: 10px; 
+}
+
+.carousel-item
+{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.carousel-caption
+{
+    padding-bottom: 250px;
+}
+.carousel-caption h5
+{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption p
+{
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+.carousel-caption a
+{
+    background: darkturquoise;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 10px; 
+}
+
+.carousel-indicators .active
+{
+    background-color: darkturquoise;
+}
+
+/*KURSEVI*/
+.stil
+{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(106, 211, 180);
+    box-shadow: 0px 0px 10px 3px gray;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+#paralax
+{
+    background: url(Images/img6.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.partitle
+{
+    padding: 150px 20px;
+}
+.partitle h2
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+ .card-body .textStyle
+{
+    font-size: 25px;
+    margin-top: 40px;
+}
+hr
+{
+    background-color: lightskyblue;
+}
+.cenaCard {
+    padding: 70px 0px;
+}
+.cenaCard h2
+{
+        font-size: 40px;
+        color: #181174;
+        text-transform: uppercase;
+        margin-bottom: 50px; 
+}
+
+
+/*STA NUDIMO*/
+.ponuda
+{
+   margin-top: 40px;
+}
+.card-body h1
+{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.card-body p
+{
+    font-size: 17px;
+}
+
+/*KONTAKT*/
+#kontakt_image
+{
+    background-image: url(Images/laptop4.jpeg);
+    background-size: cover;
+    
+}
+.okvir
+{
+
+    background: rgba(0,0,0,0.6); 
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 3px gray;
+    color: white;  
+}
+.okvir h1
+{
+    text-align: center;
+}
+.okvir hr
+{
+    background: white;
+}
+.okvir img
+{
+    height: 48px;
+}
+.mapa
+{
+    height: 100%;
+    width: 100%;
+}
+#prijava_image
+{
+    background-image: url(Images/img11.jpeg);
+    background-size: cover;
+}
+#nazivKursa {
+    background-image: linear-gradient(#181174,  #b3b3ff);
+}
+#nazivKursa h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px 0; 
+    text-align: center;
+}
+
+.tekstStyle
+{
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px 3px gray;
+}
+.tekstStyle p
+{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.8;
+}
+.tekstStyle hr
+{
+    background-color: lightskyblue;
+}
+
+#cena
+{
+    background-image:linear-gradient(#24507457, #419feb); 
+}
+.cenaCard .card {
+    background-image:linear-gradient(#5776fd, #2049a3);
+    border:2px solid #fff;
+    box-shadow:5px 5px 10px #222;
+ }
+ .pbody hr {
+    border-top: 1px solid #fff;
+    width: 100px;
+}
+.title h4 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #000;
+}
+.cenaText h3 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+.cenaText span {        
+    font-size: 14px;
+}
+
+
+.serv {
+    padding:25px;
+}
+
+.srv img {
+    font-size: 40px;
+    color: #181174;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+#paralax
+{
+    background: url(Images/img6.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+}
+.partitle
+{
+    padding: 150px 20px;
+}
+.partitle h2
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*JAVA*/
+#java
+{
+    background: url("Images/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#web
+{
+    background: url("Images/laptop2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#testSoftver
+{
+    background: url("Images/img9.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#oNama
+{
+    background: url("Images/img16.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+footer
+{
+    margin-top: 10%;
+}
+
+.form-group .form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-group .form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-group .form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-group .form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-group .form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-group .form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-group .form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-group .form-control.error small {
+	visibility: visible;
+}
